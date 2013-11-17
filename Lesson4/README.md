@@ -5,10 +5,10 @@
 -------------------
 Напишите реализацию функции getObject(path, obj), которая вернет значение аттрибута объекта obj по заданному пути:
  
-'var o = {a: {b: ‘c’}};
-'     getObject(‘a.b’, o) // ‘c’
-'      getObject(‘a’, o) // {b: ‘c’}
-'      getObject(‘d’, o) // undefined
+    var o = {a: {b: ‘c’}};
+    getObject(‘a.b’, o) // ‘c’
+    getObject(‘a’, o) // {b: ‘c’}
+    getObject(‘d’, o) // undefined
  
 Задача №2
 ------------------
